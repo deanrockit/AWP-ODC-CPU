@@ -1,0 +1,12 @@
+#!/bin/bash -l   
+#PBS -N mesh_part 
+#PBS -l walltime=00:05:00,size=12
+#PBS -o out.o$JOB_ID
+#PBS -e err.o$JOB_ID 
+#PBS -m be
+#PBS -V
+
+cd $PBS_O_WORKDIR
+date
+
+aprun -n $PBS_NNODES ./part.kraken ../MEDIA128.le 128 128 128 2 2 2 8 1

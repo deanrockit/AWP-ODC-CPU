@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#SBATCH -J test            # Job name
+#SBATCH -o test.o%j     # Name of stdout output file
+#SBATCH -e test.e%j     # Name of stderr error file
+#SBATCH -p normal         # Queue (partition) name
+#SBATCH -N 1               # Total # of nodes 
+#SBATCH -n 8               # Total # of mpi tasks
+#SBATCH -t 00:05:00        # Run time (hh:mm:ss)
+##SBATCH -A TG-ASC160050    # Allocation name (req'd if you have more than 1)
+#SBATCH --mail-user=yfcui@sdsc.edu
+#SBATCH --mail-type=all
+
+module list
+pwd
+date
+ibrun ../../../bin/pmcl3d

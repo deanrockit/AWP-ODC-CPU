@@ -1,0 +1,12 @@
+#!/bin/bash -l   
+#PBS -N src_part 
+#PBS -l walltime=01:00:00,size=12
+#PBS -o out.o$JOB_ID
+#PBS -e err.o$JOB_ID 
+#PBS -m be
+#PBS -V
+
+cd $PBS_O_WORKDIR
+date
+
+aprun -n 9 ./srcpart.kraken ../FAULTPOW.90nst.le 1 90 10 128 128 128 2 2 2 0

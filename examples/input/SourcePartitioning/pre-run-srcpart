@@ -1,0 +1,23 @@
+#!/bin/bash
+if [ -d ./srcpart ] ; then
+   rm -rf ./srcpart/*
+else
+   mkdir srcpart
+fi
+if [ -d ./srcpart/split_faults ] ; then
+   rm -rf ./srcpart/split_faults/*
+else
+   mkdir srcpart/split_faults
+fi
+
+if [ -d ./srcpart/part_faults ] ; then
+   rm -rf ./srcpart/part_faults/*
+else
+   mkdir srcpart/part_faults
+fi
+
+if [ -d ./srcpart/tpsrc ] ; then
+   rm -rf ./srcpart/tpsrc/*
+else
+   mkdir srcpart/tpsrc
+fi

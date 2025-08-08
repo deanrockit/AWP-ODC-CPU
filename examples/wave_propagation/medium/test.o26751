@@ -1,0 +1,321 @@
+/home1/00392/yfcui/AWP-ODC-v1.1.2/examples/wave_propagation/medium
+Wed Jul 24 18:26:43 CDT 2019
+TACC:  Starting up job 26751 
+TACC:  Starting parallel tasks... 
+ in main, after rddt3d: pht=  0.1000000    
+ pmcl3d mediarestart           0           0
+ bsize=           8
+ ifault=           0
+ before inimesh
+ inimesh -   4.9999999E-03   5.000000       2.500000               1
+ inimesh -            1           0           8           0
+ initmesh - CASE 0, homogeneous mesh
+ after inimesh
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ in the beginning of inipml, pht=  0.1000000    
+ inialization time =     1.812 sec
+    get station time =     0.004 sec
+    read source time =     0.221 sec
+    read media time  =     0.099 sec
+ npc=           1 nve=           1 ifault=           0
+ TIME STEP            1  OF          100
+ TIME STEP            2  OF          100
+ TIME STEP            3  OF          100
+ TIME STEP            4  OF          100
+ TIME STEP            5  OF          100
+ TIME STEP            6  OF          100
+ TIME STEP            7  OF          100
+ TIME STEP            8  OF          100
+ TIME STEP            9  OF          100
+ TIME STEP           10  OF          100
+ TIME STEP           11  OF          100
+ TIME STEP           12  OF          100
+ TIME STEP           13  OF          100
+ TIME STEP           14  OF          100
+ TIME STEP           15  OF          100
+ TIME STEP           16  OF          100
+ TIME STEP           17  OF          100
+ TIME STEP           18  OF          100
+ TIME STEP           19  OF          100
+ TIME STEP           20  OF          100
+ TIME STEP           21  OF          100
+ TIME STEP           22  OF          100
+ TIME STEP           23  OF          100
+ TIME STEP           24  OF          100
+ TIME STEP           25  OF          100
+ TIME STEP           26  OF          100
+ TIME STEP           27  OF          100
+ TIME STEP           28  OF          100
+ TIME STEP           29  OF          100
+ TIME STEP           30  OF          100
+ TIME STEP           31  OF          100
+ TIME STEP           32  OF          100
+ TIME STEP           33  OF          100
+ TIME STEP           34  OF          100
+ TIME STEP           35  OF          100
+ TIME STEP           36  OF          100
+ TIME STEP           37  OF          100
+ TIME STEP           38  OF          100
+ TIME STEP           39  OF          100
+ TIME STEP           40  OF          100
+ TIME STEP           41  OF          100
+ TIME STEP           42  OF          100
+ TIME STEP           43  OF          100
+ TIME STEP           44  OF          100
+ TIME STEP           45  OF          100
+ TIME STEP           46  OF          100
+ TIME STEP           47  OF          100
+ TIME STEP           48  OF          100
+ TIME STEP           49  OF          100
+ TIME STEP           50  OF          100
+ computing time per time step =     1.040 sec
+ mpiio time per time step =     0.000 sec
+ TIME STEP           51  OF          100
+ TIME STEP           52  OF          100
+ TIME STEP           53  OF          100
+ TIME STEP           54  OF          100
+ TIME STEP           55  OF          100
+ TIME STEP           56  OF          100
+ TIME STEP           57  OF          100
+ TIME STEP           58  OF          100
+ TIME STEP           59  OF          100
+ TIME STEP           60  OF          100
+ TIME STEP           61  OF          100
+ TIME STEP           62  OF          100
+ TIME STEP           63  OF          100
+ TIME STEP           64  OF          100
+ TIME STEP           65  OF          100
+ TIME STEP           66  OF          100
+ TIME STEP           67  OF          100
+ TIME STEP           68  OF          100
+ TIME STEP           69  OF          100
+ TIME STEP           70  OF          100
+ TIME STEP           71  OF          100
+ TIME STEP           72  OF          100
+ TIME STEP           73  OF          100
+ TIME STEP           74  OF          100
+ TIME STEP           75  OF          100
+ TIME STEP           76  OF          100
+ TIME STEP           77  OF          100
+ TIME STEP           78  OF          100
+ TIME STEP           79  OF          100
+ TIME STEP           80  OF          100
+ TIME STEP           81  OF          100
+ TIME STEP           82  OF          100
+ TIME STEP           83  OF          100
+ TIME STEP           84  OF          100
+ TIME STEP           85  OF          100
+ TIME STEP           86  OF          100
+ TIME STEP           87  OF          100
+ TIME STEP           88  OF          100
+ TIME STEP           89  OF          100
+ TIME STEP           90  OF          100
+ TIME STEP           91  OF          100
+ TIME STEP           92  OF          100
+ TIME STEP           93  OF          100
+ TIME STEP           94  OF          100
+ TIME STEP           95  OF          100
+ TIME STEP           96  OF          100
+ TIME STEP           97  OF          100
+ TIME STEP           98  OF          100
+ TIME STEP           99  OF          100
+ TIME STEP          100  OF          100
+ Final---------
+    inialization time =     1.812 sec
+       get station time =     0.004 sec
+       read source time =     0.221 sec
+       read media time  =     0.099 sec
+    computing time per time step =     1.040 sec
+    mpiio time per time step =     0.000 sec
+    total elapsed time is =   105.843 sec
+TACC:  Shutdown complete. Exiting. 

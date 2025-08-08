@@ -1,0 +1,26 @@
+#!/bin/bash
+if [ -d ./output_sfc ] ; then
+   rm -rf ./output_sfc/*
+else
+   mkdir output_sfc
+fi
+if [ -d ./output_dyn ] ; then
+   rm -rf ./output_dyn/*
+else
+   mkdir output_dyn
+fi
+if [ -d ./output_ckp ] ; then
+   rm -rf ./output_ckp/*
+else
+   mkdir output_ckp
+fi
+if [ -d ./output_vlm ] ; then
+   rm -rf ./output_vlm/*
+else
+   mkdir output_vlm
+fi
+if [ -d ./input_rst ] ; then
+   pwd
+else
+   mkdir input_rst
+fi

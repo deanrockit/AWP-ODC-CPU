@@ -1,0 +1,13 @@
+#PBS -N awm
+#PBS -l walltime=00:10:00,size=12
+#PBS -e err
+#PBS -o out
+#PBS -m be
+#PBS -S /bin/tcsh
+#PBS -V
+
+cd $PBS_O_WORKDIR
+date
+
+aprun -n 8 ../../../../bin/pmcl3d
+

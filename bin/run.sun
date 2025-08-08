@@ -1,0 +1,23 @@
+#!/bin/tcsh
+
+#$ -V                #Inherit environtment from time of submission
+#$ -cwd              #Use submission directory as working directory
+#$ -N so100m-g3d7_3  #name the job "jobname"
+#$ -o out.o$JOB_ID   #output out.o<jobID>
+#$ -e err.o$JOB_ID   #error  error.o<jobID>
+#$ -pe 16way 6000      #MPI environment with 32 CPUs
+#$ -q request         #Use normal queue
+#$ -l h_rt=30:00:00  #Allow 1hr 30mins of runtime
+#$ -m be
+
+module add mvapich-devel/1.0
+set echo             #Echo all commands.
+
+# pre-cache the binary
+
+#export DEBUG_CACHE_BINARY=1
+
+setenv DEBUG_CACHE_BINARY 1
+cache_binary $PWD ./pmcl3d
+
+ibrun tacc_affinity ./pmcl3d       #execute MPI code

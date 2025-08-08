@@ -1,0 +1,41 @@
+Note: All these inputs are for 128x128x128 case or 152x102x128 (for SGSN model) case
+      For validation purpose, each case use different FAULTPOW, located in input/ inside each case directory.
+
+input files included:
+
+1. MEDIA128.be
+	 - big-endian velocity structure file for both dynamic mode and wave propagation mode
+
+   MEDIA128.le
+	 - little-endian velocity structure file for both dynamic mode and wave propagation mode
+
+2. MEDIADYN128
+	- initial stress file for dynamic mode, with IDYNA=0 in SETTING file; for 128x128x128 case
+
+3. prob3dx03in.dat
+	- mt based fault file for SGSN/dynamic mode, with IDYNA=1 in SETTING file; for 152x102x128 case 
+
+4. FAULTPOW
+	- mt based fault file for wave propogation mode, for 128x128x128 case
+        - old one in ASCII format
+        - NST=91
+
+5. FAULTPOW.90nst.be
+        - fault file in binary format, NST = 90, big endian
+
+6. FAULTPOW.90nst.le
+        - fault file in binary format, NST = 90, little endian
+
+7. FAULTPOW.be
+        - fault file in binary format, NST = 91, big endian
+
+8. FAULTPOW.le
+        - fault file in binary format, NST = 91, little endian
+
+Partitioning examples in example directories:
+
+1. MeshPartitioning
+   - partition MEDIA128.le based on 2x2x2 configuration
+
+2. SourcePartitioning
+   - partition FAULTOW.90nst.bin based on 2x2x2 configuration, 10 time stepping

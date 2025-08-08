@@ -1,0 +1,42 @@
+#!/bin/csh 
+
+#PBS -q dque
+#PBS -N cub128 
+#PBS -o scec1.out
+#PBS -e scec1.err
+#PBS -l nodes=4:ppn=2
+#PBS -V
+#PBS -l walltime=00:10:00
+
+# change to work dir
+if($?PBS_O_WORKDIR) then
+  cd $PBS_O_WORKDIR
+endif
+
+echo "Started" `date` 
+
+if ($?PBS_NODEFILE) then   
+  # count the number of processors assigned by PBS   
+  set NP = `wc -l $PBS_NODEFILE | awk '{print $1}'`   
+  echo Running on $NP processors: `cat $PBS_NODEFILE` 
+else   
+  echo This job did not have the number of nodes specified to PBS   
+  echo  with the node= resource
+  exit 
+endif 
+
+
+# See which mpi is being used
+echo "which mpirun:"
+which mpirun
+
+#setenv NLSPATH $INTEL_HOME/lib/%N
+
+# run the program 
+time mpirun -np $NP -machinefile $PBS_NODEFILE ./pmcl3d
+
+
+# cleanup: delete temporary directory and its contents 
+echo "Done   " `date` 
+
+exit

@@ -1,0 +1,37 @@
+10
+
+dir
+180
+http://192.31.21.104/svn/trunk/AWP-ODC-v1.1.2/examples/input/SourcePartitioning/srcpart.FAULTPOW
+http://192.31.21.104/svn
+
+
+
+2012-07-05T23:23:00.116025Z
+160
+epoyraz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f9e38bf3-80c8-4d8d-964c-9a4341b81a40
+
+part_faults
+dir
+
+split_faults
+dir
+
+tpsrc
+dir
+

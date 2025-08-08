@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -d ./mediapart ] ; then
+   rm -rf ./mediapart/*
+else
+   mkdir mediapart
+fi

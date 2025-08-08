@@ -1,0 +1,13 @@
+#PBS -N awm
+#PBS -l walltime=00:50:00,size=2000
+#PBS -e err.awm.SO.2000p
+#PBS -o out.awm.SO.2000p
+#PBS -m be
+#PBS -S /bin/tcsh
+#PBS -V
+
+cd $PBS_O_WORKDIR
+date
+
+aprun -n 2000 ./pmcl3d
+
